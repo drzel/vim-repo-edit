@@ -1,6 +1,6 @@
 # vim-repo-edit
 
-Clone and edit a git repository directly from vim.
+One second to read GitHub code with vim. Inspired by [github1s](https://github.com/conwnet/github1s).
 
 
 ## Why?
