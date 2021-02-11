@@ -15,6 +15,10 @@ Install with a plugin manager.
 
 ## Usage
 
+Any of the following formats work fine.
+
 ```
+:RepoEdit https://github.com/drzel/vim-repo-edit
 :RepoEdit https://github.com/drzel/vim-repo-edit.git
+:RepoEdit git@github.com:drzel/vim-repo-edit.git
 ```
