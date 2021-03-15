@@ -2,7 +2,7 @@ scriptencoding utf-8
 
 " vim-repo-edit
 " Author: Sheldon Johnson
-" Version: 0.2
+" Version: 0.3
 
 if exists('g:loaded_repo_edit') || &compatible
   finish
