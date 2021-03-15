@@ -13,7 +13,7 @@ let g:loaded_repo_edit = 1
 function! RepoEdit(url) abort
 	let l:basename = system("basename " . a:url . " .git")
 	let l:repo_path = fnamemodify(tempname(),':h') . "/" . l:basename
-	execute "!git clone " . a:url . " " . l:repo_path
+  execute "!git clone --depth=1 " . a:url . " " . l:repo_path
 	execute "lcd ". l:repo_path
 	edit .
 endfunction
